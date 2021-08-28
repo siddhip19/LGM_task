@@ -1,0 +1,18 @@
+Firstly, before I get started with my experience, I would like to thank LetsGrowMore team for giving me this opportunity and enhace my skills.
+LGM  is an online program designed to encourage student participation in open source software development,internships etc under the 
+guidance of mentors.
+
+I had applied for Web developer internship in LGM so that I can gain  some more experience in it. within few days I received a selection mail
+from LGM. The internship started from 1 August 2021 so i decided to start doing the tasks that were provided.
+
+The first task was to create a static web page with the help of HTML and CSS. This gave me the chance to use my skills, creativity to adjust
+and algin various things on web page that will attract the users using various tags and cascading style sheets. Cascading Style Sheets 
+is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.
+
+The second task was to create a web application using react app where I learnt about using react and sucessfully creating project using react.
+
+My overall experience was amazing as i got chance to explore some new thing. The mentors  and the entire team of LGM and of these projects 
+were helpful, they guided on how to do all those stuff and finally complete my work. The timing is flexible you can do your work whenever you are 
+free without any interruption in other tasks.
+
+I would like to participate in more events like this from LetsGrowMore in the future.

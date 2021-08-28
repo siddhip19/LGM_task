@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Restuarnt</title>
+  <link rel="stylesheet" href="style.css">
+<style type="text/css">
+
+.bg-img {  
+background-image: url("rest_img/header.jpg");
+min-height: 500px;
+background-position: center;
+background-size: cover;
+position: relative;
+}
+
+img {
+        width: 100%;
+        height: auto;
+      }
+      .button {
+        background-color: #111110;
+        border-radius: 25px;
+        border: none;
+        color: #f7ecf8;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+
+.topnav {
+ overflow: hidden;
+ position: relative;
+}	
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #f2f2f2;
+  color: black;
+}
+.imgcontainer {
+  text-align: center;
+}
+img.pic {
+  width: 20%;
+  border-radius: 20%;
+}
+
+a {
+  text-decoration: none;
+}
+
+label {
+  font-family: "Raleway", sans-serif;
+  font-size: 11pt;
+}
+#forgot-pass {
+  color: #2dbd6e;
+  font-family: "Raleway", sans-serif;
+  font-size: 10pt;
+  margin-top: 3px;
+  text-align: right;
+}
+#card {
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 410px;
+  margin: 6rem auto 8.1rem auto;
+  width: 329px;
+}
+#card-content {
+  padding: 12px 44px;
+}
+#card-title {
+  font-family: "Raleway Thin", sans-serif;
+  letter-spacing: 4px;
+  padding-bottom: 23px;
+  padding-top: 13px;
+  text-align: center;
+}
+#signup {
+  color: #151615;
+  font-family: "Raleway", sans-serif;
+  font-size: 10pt;
+  margin-top: 16px;
+  text-align: center;
+}
+#submit-btn {
+  background: -webkit-linear-gradient(right, #282f25, #778172);
+  border: none;
+  border-radius: 21px;
+  box-shadow: 0px 1px 8px #778172;
+  cursor: pointer;
+  color: white;
+  font-family: "Raleway SemiBold", sans-serif;
+  height: 42.3px;
+  margin: 0 auto;
+  margin-top: 50px;
+  transition: 0.25s;
+  width: 153px;
+}
+#submit-btn:hover {
+  box-shadow: 0px 1px 18px #778172;
+}
+.form {
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+}
+.form-border {
+  background: -webkit-linear-gradient(right, #282f25, #778172);
+  height: 1px;
+  width: 100%;
+}
+.form-content {
+  background: #fbfbfb;
+  border: none;
+  outline: none;
+  padding-top: 14px;
+}
+.underline-title {
+  background: -webkit-linear-gradient(right, #282f25, #778172);
+  height: 2px;
+  margin: -1.1rem auto 0 auto;
+  width: 89px;
+}
+
+@media (min-width: 900px) {
+  .section { grid-template-columns: repeat(2, 1fr); }
+} 
+
+.img{  
+max-width: 600px;
+background-position: left;
+float: left;
+
+} 
+ 
+ .right {    
+ text-align: right;  
+ color: white; 
+ }  
+
+.column-2 {
+  padding: 40px; 
+  padding-left:70px; 
+  padding-right: 70px;
+  margin:50px;
+  margin-right:50px;
+  margin-bottom: 70px; 
+  background-color: grey;  
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.menu {
+    border-radius: 5px;
+    background: #f0d228;
+    padding: 15px;
+    color: rgb(22, 21, 21);
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+
+@media only screen and (min-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+</style>
+<body  style="background-color: #141313;">
+<div class="bg-img">
+<div class="topnav">
+	<a href="#"><b>Home</b> </a></font>
+  <a href="#fact"><b>Fact</b> </a></font>
+  <a href="#menu"><b>Menu</b> </a></font>
+	<a href="#card"><b>Login</b> </a></font>
+	<a href="#about"><b>About us</b> </a></font>
+</div>
+</div>
+
+<div class="img" id="fact">
+    <div class="right" >
+        <br><br>
+        <img src="rest_img/main_dish.jpg">
+    </div>
+</div>
+
+<div class="right" style="margin: 3%; margin-left: 50%; " > 
+    
+      <div class="right" id="row">
+        <p>
+          Pizza is an Italian dish consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as anchovies, mushrooms, onions, olives, pineapple, meat, etc.), which is then baked at a high temperature, traditionally in a wood-fired oven.
+      </p>
+    
+      <p>
+        Unlike what American culture has taught us about pizza, Italian pizza is served as a whole pie.
+      </p>
+    
+      <p>
+        The Main Ingredient is the sauce! You can forget the canned tomatoes or sauce from a store. With real italian pizza, you will find homemade sauce made from freshly peeled tomatoes and a blend of savory, complimenting herbs. You will also notice that authentic Italian pizza doesn’t combine the toppings and sauce to be cooked together. They simply layer the sauce along the crust. 
+      </p>  
+
+      <p>
+        One of the simplest and most traditional pizzas is the Margherita, which is topped with tomatoes or tomato sauce, mozzarella, and basil.
+      </p>
+      
+      <p>
+        The toppings may be one of the most surprising properties that sets authentic Italian pizza apart from its recreations and mimics. Instead of small slices of pepperoni or a sprinkling of shredded cheese, you’ll find large discs of prosciutto or slabs of gooey buffalo mozzarella.
+      </p>
+    </div>
+    </div>
+  
+    <div class="row" id="menu">
+      <center><h1 style="color: white;">Menus</h1></center>
+      <div class="col-4 col-s-3">
+        <div class="menu" id="menu">
+          <h2>Pizza Magherita</h2>
+          <img src="rest_img/pizza_magherita.jpg" width="460" height="345" style="border-radius: 5px;">
+          <a href=""class="button" target="_blank">Buy</a>
+        </div>
+      </div>
+
+      <div class="col-4 col-s-3">
+        <div class="menu" id="menu">
+          <h2>Pizza Marinara</h2>
+          <img src="rest_img/pizza_marinara.jpg" width="460" height="345" style="border-radius: 5px;">
+          <a href=""class="button" target="_blank">Buy</a>
+        </div>
+      </div>
+
+      <div class="col-4 col-s-3">
+        <div class="menu" id="menu">
+          <h2>Pizza Capricciosa</h2>
+          <img src="rest_img/pizza-capricciosa.jpeg" width="460" height="345" style="border-radius: 5px;">
+          <a href=""class="button" target="_blank">Buy</a>
+        </div>
+      </div>
+
+      <div class="col-4 col-s-3">
+        <div class="menu" id="menu">
+          <h2>Pizza Pugliese</h2>
+          <img src="rest_img/pugliese.jpg" width="460" height="345" style="border-radius: 5px;">
+          <a href="#"class="button" target="_blank">Buy</a>
+        </div>
+      </div>
+
+      <div class="col-4 col-s-3">
+        <div class="menu" id="menu">
+          <h2>Pizza Sicilian</h2>
+          <img src="rest_img/sicilian.jpg" width="460" height="345" style="border-radius: 5px;">
+          <a href=""class="button" target="_blank">Buy</a>
+        </div>
+      </div>
+
+      <div class="col-4 col-s-3">
+        <div class="menu" id="menu">
+          <h2>Pizza Quattro Stagioni</h2>
+          <img src="rest_img/quattro-stagioni.jpg" width="460" height="345" style="border-radius: 5px;">
+          <a href=""class="button" target="_blank">Buy</a>
+        </div>
+      </div>
+
+    </div>
+
+ <div id="card">
+    <div id="card-content">
+      <div id="card-title">
+        <h2>LOGIN</h2>
+        <div class="underline-title"></div>
+      </div>
+      <form method="post" action="card.html" class="form">
+        <label for="user-email" style="padding-top:13px">
+            &nbsp;Email
+          </label>
+        <input id="user-email" class="form-content" type="email" name="email" autocomplete="on" required />
+        <div class="form-border"></div>
+        <label for="user-password" style="padding-top:22px">&nbsp;Password
+          </label>
+        <input id="user-password" class="form-content" type="password" name="password" required />
+        <div class="form-border"></div>
+        <input id="submit-btn" type="submit" name="submit" value="LOGIN" />
+        <a href="register.html" id="signup">Don't have account yet?</a>
+</form>
+</div>
+</div>
+            <div class="column-2" id="about">
+            <h1>About US</h1>
+            <p><b>‘Welcome!!!’ Restaurants are well known with a substantial gathering of people including families, kids, seniors and business experts. Our benevolent condition is perfect for praising unique events, facilitating a business lunch or assembling for a flavorful dinner with loved ones.</b></p>
+            <p><b>We welcome you to sit back, unwind and appreciate the lovely sights and hints of the ocean while our best gourmet expert sets you up a scrumptious dinner utilizing the best and freshest ingredients.</b></p>
+            <p><b>Enjoy our dazzling dishes and make the most of your eating background with us!</b></p>
+            </div>
+        
+</head>
+
+
+</body>
+</html>
